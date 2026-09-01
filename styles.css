@@ -30,6 +30,32 @@ h1{
   font-weight:700;
 }
 
+.games-nav{
+  display:flex;
+  gap:8px;
+  margin-bottom:14px;
+}
+.games-nav-link{
+  color:#d8cdd1;
+  text-decoration:none;
+  font-size:0.8rem;
+  font-weight:700;
+  padding:6px 14px;
+  border-radius:16px;
+  background:rgba(0,0,0,0.18);
+}
+.games-nav-link.active{
+  background:var(--gold);
+  color:#241d17;
+}
+.games-nav-link:hover:not(.active){
+  background:rgba(0,0,0,0.3);
+}
+.games-nav-link:focus-visible{
+  outline:2px solid var(--green);
+  outline-offset:2px;
+}
+
 #tabs{
   display:flex;
   gap:6px;

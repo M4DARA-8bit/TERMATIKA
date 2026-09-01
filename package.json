@@ -1,8 +1,18 @@
 {
-  "name": "termatika",
+  "name": "termatika-mathgol",
   "version": "1.0.0",
   "private": true,
-  "description": "Termatika - Termo com equacoes matematicas. Frontend estatico + funcoes serverless (Vercel).",
+  "description": "Suite de jogos educativos: Termatika (Termo com equacoes) + MathGol (penaltis com contas por serie). Frontend estatico + funcoes serverless (Vercel).",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
   "engines": {
     "node": ">=18"
   }
